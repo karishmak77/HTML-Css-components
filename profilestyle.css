@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: column;
+  background-color: rgb(235, 157, 192);
+}
+.card {
+  height: 300px;
+  width: 350px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+.front-face h2 {
+  font-size: 20px;
+  margin: 10px;
+}
+.front-face h3 {
+  font-size: 15px;
+  color: rgb(109, 108, 108);
+}
+.front-face img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.card-container {
+  width: 100%;
+  height: 100%;
+  transition: 1500ms;
+  transform-style: preserve-3d;
+
+  border-radius: 10px;
+  position: relative;
+}
+.front-face,
+.back-face {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  position: absolute;
+  backface-visibility: hidden;
+  box-shadow: 0 0 5px 5px rgba(50, 50, 50, 0.35);
+}
+.card .card-container:hover {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+.back-face {
+  background-color: aliceblue;
+  transform: rotateY(180deg);
+}
+.front-face {
+  background-color: aliceblue;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.back-face h2 {
+  margin-left: 120px;
+  margin-bottom: 10px;
+}
+.back-face p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
