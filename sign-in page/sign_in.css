@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #051923;
+}
+.create-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.account {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0px 9px rgba(255, 255, 255, 0.9);
+}
+.welcome {
+  background-image: linear-gradient(to top left, #003554, #006494);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 6px;
+  padding-right: 6px;
+  width: 400px;
+  height: 200px;
+}
+.welcome p {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+.welcome button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.833);
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-width: 2px;
+  box-shadow: 0px 0px 10px rgb(37, 36, 36);
+  transition: 2ms;
+}
+.welcome button:hover {
+  cursor: pointer;
+  background-color: rgb(206, 197, 197);
+}
+.welcome button:active {
+  background-color: aliceblue;
+}
+h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: aliceblue;
+}
+
+.create {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 6px;
+  padding-right: 6px;
+  width: 400px;
+  height: 200px;
+  background-color: aliceblue;
+}
+
+.create h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-stretch: 20px;
+  margin-top: -40px;
+}
+.create p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.google {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px;
+}
+.google:hover {
+  cursor: pointer;
+}
+.github {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.github:hover {
+  cursor: pointer;
+}
+.linkdin {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px;
+}
+.linkdin:hover {
+  cursor: pointer;
+}
+
+.navigation {
+  margin-bottom: 7px;
+}
+
+input {
+  width: 70%;
+  padding: 7px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 0px 5px rgb(37, 36, 36);
+}
+.create button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.833);
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-width: 2px;
+  box-shadow: 0px 0px 5px rgb(37, 36, 36);
+  margin-top: 7px;
+}
+.create button:hover {
+  cursor: pointer;
+  background-color: rgb(232, 222, 222);
+}
+.create button:active {
+  background-color: white;
+}
